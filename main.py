@@ -5,7 +5,7 @@ import streamlit as st
 
 df = sns.load_dataset('iris')
 
-st.title('Análise de COnjunto de Dados Iris')
+st.title('Análise de Conjunto de Dados Iris')
 st.write(df.head())
 
 st.subheader('Estatisitcas Descritivas')
